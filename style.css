@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ccc1c1;
+}
+
+.main-header {
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+
+.intro-paragraph {
+    font-size: 18px;
+    color: #000000;
+    margin: 20px;
+    position: relative;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.main-header::before {
+    content: "⭐";
+    font-size: 24px;
+    color: #ffd900;
+    position: absolute;
+    top: 0;
+    left: 525px;
+    
+}
+
+.main-header::after {
+    content: "⭐";
+    font-size: 24px;
+    color: #FFD700;
+    position: absolute;
+    top: 0;
+    right: null;
+}
+
+.intro-paragraph::before {
+    content: "\"";
+    font-size: 18px;
+    color: #666;
+    position: absolute;
+    top: 0;
+    left: 505px;
+}
+
+.intro-paragraph::after {
+    content: "\"";
+    font-size: 18px;
+    color: #666;
+    position: absolute;
+    bottom: 0;
+    right: null;
+}
+
+.cta-button::before {
+    content: "✋";
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cta-button::after {
+    content: "✋";
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
